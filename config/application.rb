@@ -23,5 +23,8 @@ module WatchmenExample
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    # Activate Observers!
+    config.active_record.observers = :thermometer_observer
   end
 end

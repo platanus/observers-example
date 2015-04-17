@@ -12,6 +12,8 @@ gem 'spring'
 gem 'mysql2'
 gem 'rails-i18n'
 
+gem 'rails-observers'
+
 group :development, :test do
   gem 'pry-rails'
   gem 'pry-byebug'
